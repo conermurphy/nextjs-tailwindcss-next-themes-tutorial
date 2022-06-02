@@ -22,7 +22,7 @@ export default function Toggle() {
         return setTheme('light');
       }}
       type="button"
-      className="opacity-75 p-6 text-xl"
+      className="opacity-75 p-6 text-xl text-black dark:text-white"
     >
       Toggle to {theme === 'light' ? 'dark' : 'light'} theme
     </button>
